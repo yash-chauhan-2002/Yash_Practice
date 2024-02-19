@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" onsubmit="save()">
+        <table>
+            <tr>
+                <td>
+                    <label for="fname">Name</label>
+                </td>
+                <td>
+                    <input type="text" name="" id="fname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">password</label>
+                </td>
+                <td>
+                    <input type="password" name="" id="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">click me</button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+    <script>
+        let fname = document.getElementById('fname')
+        let pwd = document.getElementById('password')
+        // function save() {
+        //     if (fname.value && pwd.value) {
+        //         alert("Registration success")
+        //     }
+        //     else {
+        //         alert("Registration failed...")
+        //     }
+        // }
+        function save() {
+            if (fname.value == "") {
+                alert("Enter Name Plz")
+            }
+            else if((pwd.value).length<6 ){
+                alert("Enter 6 digit pwd or plz enter pwd")
+            }
+            else {
+                alert("Registration Success...")
+            }
+        }
+
+    </script>
+</body>
+
+</html>

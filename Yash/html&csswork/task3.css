@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.height{
+    height: 100vh;
+}
+.border{
+    border: 1px solid black;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.bgimg{
+    background-image: url(https://st.depositphotos.com/1927453/1975/i/450/depositphotos_19750405-stock-photo-alone-tree-on-meadow-at.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+
+}
+.one{
+   padding-left: 30px;
+    width: 50%;
+}
+.two{
+   padding-left: 30px;
+    width: 50%;   
+}
+.border2{
+    border: 1px solid black;
+}
+.width{
+    width: 50%;
+    height: 350px;
+}
+
+.gap{
+    height: 100%;
+}
+.gap1{
+    height: 50%;
+}
+.gap2{
+    height: 50%;
+}
